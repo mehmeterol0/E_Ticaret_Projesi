@@ -1,0 +1,63 @@
+.ProductList {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.ProductCard {
+  border: 1px solid hsl(0, 4%, 28%);
+  margin: 10px 0;
+  padding: 10px;
+  flex: 1; 
+  display: flex;
+  align-items: center;
+}
+
+.ProductImage {
+  width: 150px;
+  height: auto;
+  border-radius: 8px;
+}
+
+.ProductCardContent {
+  flex: 1;
+  margin-left: 20px;
+}
+
+.ProductCard h3 {
+  margin: 0 0 10px 0;
+}
+
+.ProductCard p {
+  margin: 0;
+}
+
+.Cart {
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 200px;
+  height: 100vh;
+  background-color: #fff;
+  padding: 20px;
+  overflow-y: auto;
+  box-shadow: -2px 0 5px rgba(0, 0, 0, 0.15);
+  color: #333;
+}
+
+.Cart h2 {
+  text-align: center;
+}
+
+.CartItem {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid hsl(0, 4%, 28%);
+  padding: 10px 0;
+}
+body {
+  background-color: #f0f0f0;
+}
+
