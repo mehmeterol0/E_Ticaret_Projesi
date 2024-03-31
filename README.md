@@ -114,7 +114,10 @@ Postmanden[ http://localhost:8080/api/products/update ](http://localhost:8080/ap
 Sepete ürün eklerken[ http://localhost:3000/carts/{cartId}/products/{productId} ](http://localhost:3000/carts/%7bcartId%7d/products/%7bproductId%7d)endpoinitini ve addProductToCart methodunu kullanarak ürün ekleme işlemini gerçekleştiririz.
 
 
-![](07.png)Sepetten ürün çıkartma işlemi için yine[ http://localhost:3000/carts/{cartId}/products/{productId} ](http://localhost:3000/carts/%7bcartId%7d/products/%7bproductId%7d)endpoinitini kullanırız. Ürün çıkartmak için kullanıdığımız method ismi ise removeProductFromCart methodudur. 
+![](07.png)
+
+
+Sepetten ürün çıkartma işlemi için yine[ http://localhost:3000/carts/{cartId}/products/{productId} ](http://localhost:3000/carts/%7bcartId%7d/products/%7bproductId%7d)endpoinitini kullanırız. Ürün çıkartmak için kullanıdığımız method ismi ise removeProductFromCart methodudur. 
 
 
 ![](08.png)
@@ -126,7 +129,7 @@ Sepete ürün eklerken[ http://localhost:3000/carts/{cartId}/products/{productId
 “Sepeti Temizle” butonuna tıkladığımızda[ http://localhost:3000/carts/{id}/empty ](http://localhost:3000/carts/%7bid%7d/empty)endpointini ve emptyCart methodunu kullanarak sepeti tamamen boşaltırız. 
 
 
-![](Aspose.Words.94a48e34-ddc1-48cd-81cb-d1f876c559d8.009.jpeg)
+![](09.png)
 
 
 **7) Sipariş verme işlemi:** 
@@ -135,7 +138,7 @@ Sepete ürün eklerken[ http://localhost:3000/carts/{cartId}/products/{productId
 “Sipariş Ver” butonuna tıkladığımızda[ http://localhost:3000/orders/from-cart/{cartId} ](http://localhost:3000/orders/from-cart/%7bcartId%7d)endpoinitini ve placeOrderFromCart methodunu kullanarak sepetteki tüm ürünler sipariş olarak geçilir.  
 
 
-![](Aspose.Words.94a48e34-ddc1-48cd-81cb-d1f876c559d8.010.jpeg)
+![](10.png)
 
 
 **8) Verilen Siparişleri Görme:** 
@@ -144,13 +147,13 @@ Sepete ürün eklerken[ http://localhost:3000/carts/{cartId}/products/{productId
 Verilen siparişleri görmek için[ http://localhost:3000/price-history/orders ](http://localhost:3000/price-history/orders)endpointi kullanılarak erişilir. Uygulamamızda ise “Verilen Siparişler” sekmesinde görebiliriz. Aynı sipariş numarasına ait olan siparişler aynı renklerde boyanmıştır.  
 
 
-![](Aspose.Words.94a48e34-ddc1-48cd-81cb-d1f876c559d8.011.jpeg)
+![](11.png)
 
 
 **EER Diyagramı**
 
 
-![](Aspose.Words.94a48e34-ddc1-48cd-81cb-d1f876c559d8.001.jpeg)
+![](01.png)
 
 
 
