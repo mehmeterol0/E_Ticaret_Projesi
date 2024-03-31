@@ -61,7 +61,7 @@ public class OrderService {
                 if (product.getStock() == 0) {
                     throw new IllegalArgumentException(product.getName() + "'e ait Stoklar Tükendi. Sipariş Oluşturulamadı: ");
                 }
-                //product.setStock(product.getStock() - 1);
+                product.setStock(product.getStock() - 1);
 
                 // Her ürün için bir PriceHistory oluştur
                 PriceHistory priceHistory = new PriceHistory();
