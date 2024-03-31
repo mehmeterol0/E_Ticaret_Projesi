@@ -1,6 +1,6 @@
-﻿**İstek : BirAlışveriş Projesi Yapılması Süre: 5 Gün** 
+﻿**İstek : Bir Alışveriş Projesi Yapılması Süre: 5 Gün** 
 
-**Kullanılan Teknolojiler:   ![](Aspose.Words.94a48e34-ddc1-48cd-81cb-d1f876c559d8.001.jpeg)**
+**Kullanılan Teknolojiler:   **
 
 - Java  
 - Java Spring  
@@ -52,35 +52,35 @@ ProductController.java:
 
 Uygulamamızda “Müşteri Ekle” Sekmesinde POST isteği ile[ http://localhost:8080/customers/add ](http://localhost:8080/customers/add)endpointini kullanarak bir Customer oluştuduk. 
 
-![](Aspose.Words.94a48e34-ddc1-48cd-81cb-d1f876c559d8.002.jpeg)
+![](02.png)
 
 Databaseden kontrol edelim; 
 
-![](Aspose.Words.94a48e34-ddc1-48cd-81cb-d1f876c559d8.003.png)
+![](03.png)
 
 2) Ürün Ekleme işlemlerini gerçekleştirelim: 
 
 Postmanden istek oluşturmak yerine, Reactta oluşturmuş olduğum “Ürün Ekle” frontend tarafından ürün ekleme işlemini gerçekleştirelim. 
 
-![](Aspose.Words.94a48e34-ddc1-48cd-81cb-d1f876c559d8.004.jpeg)
+![](04.png)
 
 3) Ürünün “Ürünler” sekmesine geçip eklenip eklenmediğini kontrol edelim. 
 
-![](Aspose.Words.94a48e34-ddc1-48cd-81cb-d1f876c559d8.005.jpeg)
+![](05.png)
 
 4) Postman üzerinden bir ürün güncelleyelim ve silelim: 
 
 Postmanden[ http://localhost:8080/api/products/update ](http://localhost:8080/api/products/update)endpointini kullanarak bir ürünü güncelleme işlemi gerçekleştirdim ve http://localhost:8080/api/products/{id} endpointi ile silme işlemi gerçekleştirebiliriz.  
 
-![](Aspose.Words.94a48e34-ddc1-48cd-81cb-d1f876c559d8.006.jpeg)
+![](06.png)
 
 5) Sepete Ürün Ekleme ve Sepetten Ürün Çıkarma işlemler:  
 
 Sepete ürün eklerken[ http://localhost:3000/carts/{cartId}/products/{productId} ](http://localhost:3000/carts/%7bcartId%7d/products/%7bproductId%7d)endpoinitini ve addProductToCart methodunu kullanarak ürün ekleme işlemini gerçekleştiririz.  
 
-![](Aspose.Words.94a48e34-ddc1-48cd-81cb-d1f876c559d8.007.jpeg)Sepetten ürün çıkartma işlemi için yine[ http://localhost:3000/carts/{cartId}/products/{productId} ](http://localhost:3000/carts/%7bcartId%7d/products/%7bproductId%7d)endpoinitini kullanırız. Ürün çıkartmak için kullanıdığımız method ismi ise removeProductFromCart methodudur. 
+![](07.png)Sepetten ürün çıkartma işlemi için yine[ http://localhost:3000/carts/{cartId}/products/{productId} ](http://localhost:3000/carts/%7bcartId%7d/products/%7bproductId%7d)endpoinitini kullanırız. Ürün çıkartmak için kullanıdığımız method ismi ise removeProductFromCart methodudur. 
 
-![](Aspose.Words.94a48e34-ddc1-48cd-81cb-d1f876c559d8.008.jpeg)
+![](08.png)
 
 6) Sepeti tamamen temizleme: 
 
@@ -100,3 +100,6 @@ Verilen siparişleri görmek için[ http://localhost:3000/price-history/orders ]
 
 ![](Aspose.Words.94a48e34-ddc1-48cd-81cb-d1f876c559d8.011.jpeg)
 Mehmet Erol – Mart 2024 
+
+
+![](Aspose.Words.94a48e34-ddc1-48cd-81cb-d1f876c559d8.001.jpeg)
